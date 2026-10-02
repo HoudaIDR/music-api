@@ -61,7 +61,7 @@ $routes($app);
 (require __DIR__ . '/../src/routes/routesJWT.php')($app);
 
 // Option : Doctrine (/orm/artists)
-// (require __DIR__ . '/../src/routes/routesOrm.php')($app);
+(require __DIR__ . '/../src/routes/routesOrm.php')($app);
 
 /** @var SettingsInterface $settings */
 $settings = $container->get(SettingsInterface::class);
