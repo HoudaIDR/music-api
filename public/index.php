@@ -58,7 +58,7 @@ $routes($app);
 (require __DIR__ . '/../src/routes/routesRepository.php')($app);
 
 // JWT : /login et /protected
-// (require __DIR__ . '/../src/routes/routesJWT.php')($app);
+(require __DIR__ . '/../src/routes/routesJWT.php')($app);
 
 // Option : Doctrine (/orm/artists)
 // (require __DIR__ . '/../src/routes/routesOrm.php')($app);

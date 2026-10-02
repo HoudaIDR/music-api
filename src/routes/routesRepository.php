@@ -67,5 +67,5 @@ return function (App $app) {
             return $response->withStatus(204);
         });
 
-    }); // ->add(new JwtMiddleware());   // toutes les routes /api sont protégées par le JWT
+    })->add(new JwtMiddleware());   // toutes les routes /api sont protégées par le JWT
 };
