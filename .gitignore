@@ -1,0 +1,11 @@
+/vendor/
+/logs/*
+!/logs/README.md
+/var/
+.idea/
+.phpunit.result.cache
+/coverage/
+_to_delete/
+
+# Mot de passe de la BDD : jamais sur GitHub !
+/config/db.php
