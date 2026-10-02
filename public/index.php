@@ -55,7 +55,7 @@ $routes = require __DIR__ . '/../app/routes.php';
 $routes($app);
 
 // V2 : Repository + Entity (/api/artists)
-// (require __DIR__ . '/../src/routes/routesRepository.php')($app);
+(require __DIR__ . '/../src/routes/routesRepository.php')($app);
 
 // JWT : /login et /protected
 // (require __DIR__ . '/../src/routes/routesJWT.php')($app);
